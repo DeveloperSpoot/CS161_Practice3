@@ -33,12 +33,14 @@ namespace Practice_3
 
         private void btt_ChangeCounter_Click(object sender, EventArgs e)
         {
-
+            ChangeCounter form = new ChangeCounter();
+            form.Show();
         }
 
         private void btt_SingleStep_Click(object sender, EventArgs e)
         {
-
+            SingleStepping form = new SingleStepping();
+            form.Show();
         }
     }
 }
