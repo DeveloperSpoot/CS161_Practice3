@@ -35,6 +35,8 @@
             btt_ChangeCounter = new Button();
             btt_SingleStep = new Button();
             label1 = new Label();
+            button1 = new Button();
+            button2 = new Button();
             SuspendLayout();
             // 
             // btt_BirthDate
@@ -101,17 +103,37 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
-            label1.Location = new Point(78, 27);
+            label1.Location = new Point(12, 9);
             label1.Name = "label1";
             label1.Size = new Size(62, 15);
             label1.TabIndex = 6;
             label1.Text = "Practice 3";
             // 
+            // button1
+            // 
+            button1.Location = new Point(242, 79);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 7;
+            button1.Text = "Name Formatter";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(242, 123);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 23);
+            button2.TabIndex = 8;
+            button2.Text = "Name Formatter";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // Main
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(215, 220);
+            ClientSize = new Size(413, 220);
+            Controls.Add(button2);
+            Controls.Add(button1);
             Controls.Add(label1);
             Controls.Add(btt_SingleStep);
             Controls.Add(btt_ChangeCounter);
@@ -134,5 +156,7 @@
         private Button btt_ChangeCounter;
         private Button btt_SingleStep;
         private Label label1;
+        private Button button1;
+        private Button button2;
     }
 }
