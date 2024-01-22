@@ -17,11 +17,6 @@ namespace Practice_3
             InitializeComponent();
         }
 
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void btt_Calculate_Click(object sender, EventArgs e)
         {
             try

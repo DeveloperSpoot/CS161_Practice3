@@ -67,7 +67,6 @@
             label3.Size = new Size(39, 15);
             label3.TabIndex = 2;
             label3.Text = "Test 3:";
-            label3.Click += label3_Click;
             // 
             // txtb_Test1
             // 

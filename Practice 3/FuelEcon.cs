@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-
-namespace Practice_3
+﻿namespace Practice_3
 {
     public partial class FuelEcon : Form
     {
@@ -19,7 +9,14 @@ namespace Practice_3
 
         private void btt_MPG_Click(object sender, EventArgs e)
         {
+            try
+            {
+
             lb_MPG.Text = $"{int.Parse(txtb_Miles.Text)/int.Parse(txtb_Gas.Text)}";
+            }catch 
+            {
+                MessageBox.Show("Invalid data was entered.");
+            }
         }
 
         private void btt_Exit_Click(object sender, EventArgs e)
