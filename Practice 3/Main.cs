@@ -53,7 +53,8 @@ namespace Practice_3
 
         private void btt_TipTaxTotal_Click(object sender, EventArgs e)
         {
-
+            TipTaxTotal form = new TipTaxTotal();
+            form.Show();
         }
 
         private void btt_DistanceTraveled_Click(object sender, EventArgs e)
