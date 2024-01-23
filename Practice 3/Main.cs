@@ -1,3 +1,5 @@
+using Practice_3.Programming_Problems;
+
 namespace Practice_3
 {
     public partial class Main : Form
@@ -41,6 +43,37 @@ namespace Practice_3
         {
             SingleStepping form = new SingleStepping();
             form.Show();
+        }
+
+        private void btt_NameFormatter_Click(object sender, EventArgs e)
+        {
+            NameFormatter form = new NameFormatter();
+            form.Show();
+        }
+
+        private void btt_TipTaxTotal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btt_DistanceTraveled_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btt_SalesTaxTotal_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btt_CelsiusFahrenheit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btt_IngredientAdjuster_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
