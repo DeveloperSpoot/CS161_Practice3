@@ -59,7 +59,8 @@ namespace Practice_3
 
         private void btt_DistanceTraveled_Click(object sender, EventArgs e)
         {
-
+            DistanceTraveled form = new DistanceTraveled();
+            form.Show();
         }
 
         private void btt_SalesTaxTotal_Click(object sender, EventArgs e)
