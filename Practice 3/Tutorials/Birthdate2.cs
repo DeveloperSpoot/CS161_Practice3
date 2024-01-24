@@ -1,8 +1,8 @@
-﻿namespace Practice_3
+﻿namespace Practice_3.Tutorials
 {
-    public partial class BirthDate : Form
+    public partial class Birthdate2 : Form
     {
-        public BirthDate()
+        public Birthdate2()
         {
             InitializeComponent();
         }
@@ -28,6 +28,11 @@
         private void btt_Exit_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Birthdate2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

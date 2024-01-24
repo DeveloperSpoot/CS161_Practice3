@@ -4,7 +4,6 @@
     {
         public CelsiusFahrenheit()
         {
-            Console.WriteLine("Hello WORLD.");
             InitializeComponent();
         }
 
@@ -16,15 +15,19 @@
 
                 if (radBtt_Fahrenheit.Checked)
                 {
-                    var newTemp = ((9/5 * temp) + 32);
-                    lb_Display.Text = $"{newTemp}° Fahrenheit";
+                    //f = (9/2*C) + 32
+                   
+                    double newTemp = (9.0/5.0) * temp + 32;
+                    lb_Display.Text = newTemp.ToString("F") + "° Fahrenheit";
 
                 }
                 else if (radBtt_Celsius.Checked)
                 {
-                    var newTemp = ((temp - 32) * (5 / 9));
+                    // c = 5/9 * (f-32)
+                    double newTemp = ((temp - 32) * 0.55555555555);
 
-                    lb_Display.Text = $"{newTemp}° Celsius";
+
+                    lb_Display.Text = newTemp.ToString("F")+"° Celsius";
                 }
 
             }

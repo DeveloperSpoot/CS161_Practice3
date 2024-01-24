@@ -1,4 +1,5 @@
 using Practice_3.Programming_Problems;
+using Practice_3.Tutorials;
 
 namespace Practice_3
 {
@@ -11,7 +12,7 @@ namespace Practice_3
 
         private void btt_BirthDate_Click(object sender, EventArgs e)
         {
-            BirthDate form = new BirthDate();
+            Birthdate2 form = new Birthdate2();
             form.Show();
         }
 
