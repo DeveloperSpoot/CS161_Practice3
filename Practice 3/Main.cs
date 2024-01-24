@@ -65,12 +65,14 @@ namespace Practice_3
 
         private void btt_SalesTaxTotal_Click(object sender, EventArgs e)
         {
-
+            TipTaxTotal form = new TipTaxTotal();
+            form.Show();
         }
 
         private void btt_CelsiusFahrenheit_Click(object sender, EventArgs e)
         {
-
+            CelsiusFahrenheit form = new CelsiusFahrenheit();
+            form.Show();
         }
 
         private void btt_IngredientAdjuster_Click(object sender, EventArgs e)
